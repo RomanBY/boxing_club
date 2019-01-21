@@ -1,0 +1,9 @@
+$bg-color: pink;
+$container-color: orange;
+$container-color2: red;
+
+body {
+  background: $bg-color;
+  .container{background: $container-color; cursor: pointer; height: 500px; transition: 300ms;
+    &:hover{background: $container-color2}}
+}
