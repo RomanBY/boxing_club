@@ -1,9 +1,19 @@
-$bg-color: pink;
-$container-color: orange;
-$container-color2: red;
+@import "blocks/const";
+@import "blocks/nav";
+
+
+
 
 body {
-  background: $bg-color;
-  .container{background: $container-color; cursor: pointer; height: 500px; transition: 300ms;
-    &:hover{background: $container-color2}}
+  min-width: 100%;
+  padding: 0;
+  margin: 0;
+  background: $bg-color1;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: $text-color1;
+}
+header{
+  min-height: $min-height1;
 }
