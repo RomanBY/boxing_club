@@ -1,5 +1,23 @@
 nav {
-  min-height: $min-height1;
+  max-height: $header-height;
   background: $bg-color2;
   position: fixed;
+  z-index: 5;
+  .container{min-height: $header-height};
+  .row {min-height: $header-height};
+  .nav{
+    a{
+      color: $text-color2;
+      line-height: 16px;
+      transition: 200ms;
+      &:hover{
+        color: $text-color3;
+      }
+    }
+  }
+  .header_address{
+    color: $text-color4;
+    font-size: 12px;
+  }
 }
+

@@ -2,11 +2,18 @@
 @import "blocks/nav.scss";
 @import "blocks/top.scss";
 
-
+.btn,
+.form-control{
+  box-shadow: none;
+}
+a, a:hover, a:focus, a:active, button, button:focus, button:active,.form-control:focus, .form-control:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
 
 
 body {
-  min-width: 1280px;
+  max-width: 100%;
   padding: 0;
   margin: 0;
   background: $bg-color1;
@@ -17,10 +24,7 @@ body {
 }
 header{
   min-height: $header-height;
+  background: $bg-color2;
+
 }
-.top {
-  height: $top-height;
-  background: #79989b url(../../src/img/bg_screen1.jpg) no-repeat 100%;
-  position: relative;
-  overflow: hidden;
-}
+
