@@ -19,5 +19,21 @@ nav {
     color: $text-color4;
     font-size: 12px;
   }
+  .header_contacts{
+    min-height: $header-height/3*2;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    p{color: $text-color2};
+    .header_contacts_viber{
+      cursor: pointer;
+      transition: 200ms;
+      &:hover{
+        color: $text-color3;
+      }
+    }
+  }
+  .header_feedback-btn{
+
+  }
 }
 
